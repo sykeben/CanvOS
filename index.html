@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>CanvOS</title>
+        
+        <!-- WebUI Styles -->
+        <link rel="stylesheet" href="webui/style.css">
+    
+    </head>
+    
+    <body>
+        
+        <!-- Display -->
+        <canvas id="display">
+            <p>Your browser does not support canvases, please <a href="#" onclick="doBrowserUpgrade()">upgrade</a>.</p>
+        </canvas>
+        
+        <!-- Common Libraries -->
+        <script src="libs/jquery-3.4.1.min.js"></script>
+        
+        <!-- Canvas Manager -->
+        <script src="webui/canman.js"></script>
+        
+        <!-- OS Scripts -->
+        <script src="os/appman.js"></script>
+        <script src="os/statbar.js"></script>
+        
+        <!-- Apps -->
+        <script src="apps/home.js"></script>
+    
+    </body>
+
+
+</html>

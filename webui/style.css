@@ -1,0 +1,10 @@
+html, body {
+    background-color: #111111;
+    font-family: sans-serif;
+    padding: 0px; margin: 0px;
+    overflow: hidden;
+}
+
+a { color: blueviolet; text-decoration-style: dotted; }
+a:hover { color: blue; text-decoration-style: solid; }
+a:visited { color: blueviolet; text-decoration-style: dotted }
